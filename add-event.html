@@ -1,0 +1,78 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="2qa.css">
+    <link rel="stylesheet" type="text/css" href="ema-form.css">
+    <title>Walk page for laptop screen - Home</title>
+</head>
+
+<body>
+
+    <div class="admin-wrapper">
+
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+
+            <!-- User profile -->
+            <div class="userprofile">
+                <div class="user-picture">
+                </div>
+                <div class="user-name">
+                <p>Test Account</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <hr>
+            <br>
+
+            <div class="navbar">
+                <ul>
+                  <li><a href="2qa-home.html">Home</a></li>
+                  <li><a href="2qa-manage-page.html">Manage page</a></li>
+                  <li><a href="2qa-manage-user.html">Manage user</a></li>
+                </ul>
+            </div>
+
+            <!-- login or log out button -->
+            <div class="log-btn">
+                <p><a href="adminlogin.php" target="self">logout</a></p>
+
+            </div>
+
+
+        </div>
+
+        <!-- Admin Content -->
+
+        <div class="admin-content">
+
+            <div class="top-header">
+                <div class="ou-logo">
+                    <img src="images/OU-logo.png" alt="ou-logo" width="50" height="50">
+
+                </div>
+                <h1>Add Event</h1>
+            </div>
+
+            <div class="form">
+                <form method="post" action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" id="form1" name="form1">
+                    <label for="title">Name of the Event:</label>
+                    <input type="text" id="title" name="title"><br><br>
+                    <input type="hidden" id="eventId" name="eventId" value="12345678-09ab-1111-cdef">
+                    <textarea name="message" style="width:500px; height:300px;"></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>

@@ -176,3 +176,12 @@ td {
 .publish:hover {
     text-decoration: underline;
 }
+
+.form {
+    width: 88%;
+    position: absolute;
+    top: 130px;
+    left: 5px;
+    right: 5px;
+    padding: 40px;
+}
